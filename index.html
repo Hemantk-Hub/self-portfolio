@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="light-mode">
+    <header class="header">
+        <nav class="navbar glass">
+            <a href="#home" class="logo">Port<span>folio</span>.</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="home section">
+        <div class="home-content">
+            <h3 class="hello">Hello, It's Me</h3>
+            <h1 class="name">Hemant Kumar</h1>
+            <h3 class="profession">And I'm a <span class="typing">Full-Stack developer</span></h3>
+            <p class="intro">From pixels to databases, I craft seamless full-stack experiences that work beautifully and perform flawlessly.
+                together.</p>
+            <div class="social-links">
+                <a href="https://github.com/Hemantk-Hub" class="social-icon glass-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/hemant-kumar-050a25359" class="social-icon glass-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://t.me/hemant315kumar" class="social-icon glass-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/hemant_kumar_11111" class="social-icon glass-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+            <a href="#contact" class="btn primary-btn glass-btn">Hire Me</a>
+        </div>
+        <div class="home-img glass-img">
+            <div class="img-placeholder">
+                <img src="profile img.jpeg" alt="description">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-container">
+            <div class="about-img glass-img">
+                <div class="img-placeholder"><i class="fas fa-code"></i></div>
+            </div>
+            <div class="about-text glass-card">
+                <h3>full-Stack Developer</h3>
+                <p>Hello! I am a passionate Full Stack Developer who crafts seamless digital experiences—from beautiful frontends to powerful, efficient backends.</p>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="circle"></div>
+                        <h4>Bachelor of Technology (B.Tech) in Computer Science</h4>
+                        <p>Ramswaroop Memorial University(2024 - 2028)</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="circle"></div>
+                        <h4>Frontend UI/UX</h4>
+                        <p>Creative Digital (2026 - Present)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills section">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-container glass-card">
+            <div class="skill-category">
+                <h3>Technical Skills</h3>
+                <div class="skill-box">
+                    <span class="title">HTML5 / CSS3</span>
+                    <div class="skill-bar"><span class="skill-per css"><span class="tooltip">90%</span></span></div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">JavaScript</span>
+                    <div class="skill-bar"><span class="skill-per js"><span class="tooltip">85%</span></span></div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">React</span>
+                    <div class="skill-bar"><span class="skill-per react"><span class="tooltip">80%</span></span></div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">Java</span>
+                    <div class="skill-bar"><span class="skill-per react"><span class="tooltip">88%</span></span></div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">Python</span>
+                    <div class="skill-bar"><span class="skill-per react"><span class="tooltip">85%</span></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section">
+        <h2 class="section-title">Latest <span>Projects</span></h2>
+        <div class="projects-grid">
+            <div class="project-card glass-card">
+                <div class="project-img">
+                    <div class="img-placeholder"><i class="fas fa-shopping-cart"></i></div>
+                </div>
+                <div class="project-info">
+                    <h3>Tindog-web</h3>
+                    <p>It's connects one to another dog couples ,again it's for fun</p>
+                    <div class="tech-stack"><span> </span><span> </span></div>
+                    <div class="project-links">
+                        <a href="https://hemantk-hub.github.io/Tinder/" class="btn glass-btn small-btn"  >Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projects-grid" style="margin-top:20px;margin-bottom:20px">
+            <div class="project-card glass-card">
+                <div class="project-img">
+                    <div class="img-placeholder"><i class="fas fa-shopping-cart"></i></div>
+                </div>
+                <div class="project-info">
+                    <h3>Move-it-startup-web</h3>
+                    <p>A full-featured pick-up carrier platform.</p>
+                    <div class="tech-stack"><span> </span><span> </span></div>
+                    <div class="project-links">
+                        <a href="https://hemantk-hub.github.io/Move-it-startup-web-/" class="btn glass-btn small-btn" >Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <form class="contact-form glass-card">
+                <div class="input-group">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <input type="text" placeholder="Subject" required>
+                <textarea cols="30" rows="8" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary-btn glass-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer glass">
+        <div class="footer-content">
+            <p>&copy; 2024 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
